@@ -1,6 +1,7 @@
 # Smartphone-Analysis
-Smartphone Analysis using Python and Web Scraping
+
 📱 Smartphone Market Analysis Using Web Scraping
+
 📌 Project Overview
 
 Smartphones have become an important part of everyday life, and the smartphone market contains a wide range of brands, prices, specifications, discounts, and customer ratings.
