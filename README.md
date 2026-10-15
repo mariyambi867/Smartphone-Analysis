@@ -289,3 +289,7 @@ The project starts with collecting real-world smartphone data through web scrapi
 This project provided practical experience in Python, Web Scraping, Pandas, NumPy, BeautifulSoup, Regular Expressions, Matplotlib, and Data Analysis.
 
 It also helped in understanding how raw web data can be transformed into meaningful information and business insights.
+
+author 
+Mohammad.Mariyambi
+
