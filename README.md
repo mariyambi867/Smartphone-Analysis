@@ -1,8 +1,8 @@
 # Smartphone-Analysis
 
-📱 Smartphone Market Analysis Using Web Scraping
+### 📱 Smartphone Market Analysis Using Web Scraping
 
-📌 Project Overview
+#### 📌 Project Overview
 
 Smartphones have become an important part of everyday life, and the smartphone market contains a wide range of brands, prices, specifications, discounts, and customer ratings.
 
@@ -11,7 +11,7 @@ This project focuses on analyzing smartphone market data collected from Flipkart
 The main purpose of this project is to understand smartphone pricing patterns, brand-wise differences, discounts, ratings, RAM, storage, battery capacity, and other important specifications.
 
 Python is used for web scraping, data cleaning, data preprocessing, exploratory data analysis, visualization, and correlation analysis.
-💼 Business Statement
+### 💼 Business Statement
 
 The objective of this project is to analyze smartphone market data scraped from Flipkart in order to understand:
 
@@ -25,7 +25,7 @@ Market trends and useful patterns
 
 The analysis can help understand product positioning and pricing patterns in the smartphone market.
 
-🎯 Project Objectives
+### 🎯 Project Objectives
 
 The main objectives of this project are:
 
@@ -42,7 +42,7 @@ Analyze discounts and customer ratings.
 Perform correlation analysis.
 Generate useful business insights.
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 The following tools and Python libraries were used:
 
@@ -54,7 +54,7 @@ Pandas
 NumPy
 Matplotlib
 Jupyter Notebook
-🌐 Data Collection – Web Scraping
+### 🌐 Data Collection – Web Scraping
 
 Smartphone information was collected from Flipkart using Python web scraping techniques.
 
@@ -66,7 +66,7 @@ Regular Expressions were used to extract specific information such as RAM, stora
 
 The project scraped data from 10 pages and initially collected 240 smartphone products.
 
-📋 Data Collected
+### 📋 Data Collected
 
 The following information was extracted from the smartphone listings:
 
@@ -85,13 +85,13 @@ Rating	Customer rating
 
 These fields were created while extracting the smartphone details from the scraped product information.
 
-🔄 Project Workflow
+### 🔄 Project Workflow
 
 The overall project workflow is:
 
 Flipkart → Web Scraping → Data Collection → DataFrame → Data Cleaning → Missing Value Handling → Duplicate Removal → EDA → Visualization → Correlation Analysis → Business Insights
 
-🧹 Data Cleaning & Preprocessing
+### 🧹 Data Cleaning & Preprocessing
 
 After collecting the raw data, data cleaning was performed to make the dataset suitable for analysis.
 
@@ -116,7 +116,7 @@ Median was used for RAM, Storage and Battery.
 Mean was used for Price and Rating.
 Missing Discount values were calculated from Original Price and Price where possible.
 
-🔁 Duplicate Record Handling
+### 🔁 Duplicate Record Handling
 
 The dataset initially contained duplicate records.
 
@@ -124,11 +124,11 @@ The duplicate check identified 52 duplicate records.
 
 After removing duplicates, the dataset was reduced from 240 records to 188 records with 11 columns.
 
-📊 Exploratory Data Analysis (EDA)
+### 📊 Exploratory Data Analysis (EDA)
 
 Exploratory Data Analysis was performed to understand different patterns in the smartphone market.
 
-1. Brand-wise Pricing
+#### 1. Brand-wise Pricing
 
 The average smartphone price was calculated for each brand.
 
@@ -136,7 +136,7 @@ This analysis helps compare the average price levels of different smartphone bra
 
 For example, the calculated results show differences in average pricing between brands such as Apple, Google, IQOO, vivo, OnePlus, Samsung, realme, and others.
 
-2. RAM vs Price
+#### 2. RAM vs Price
 
 The relationship between RAM capacity and smartphone price was analyzed.
 
@@ -146,7 +146,7 @@ The analysis shows that smartphones with higher RAM capacities generally have hi
 
 A scatter plot was also created to visualize the relationship between RAM and price.
 
-3. Storage vs Price
+#### 3. Storage vs Price
 
 Storage capacity was compared with the average smartphone price.
 
@@ -159,7 +159,7 @@ The analysis considered storage categories such as:
 
 The average price increased across these storage categories in the analyzed dataset.
 
-4. Brand-wise Battery Analysis
+#### 4. Brand-wise Battery Analysis
 
 Average battery capacity was calculated for different smartphone brands.
 
@@ -167,43 +167,44 @@ This analysis helps compare battery capacities across brands and understand diff
 
 A bar chart was created to visualize brand-wise average battery capacity.
 
-5. Discount Analysis
+#### 5. Discount Analysis
 
 Discount percentages were analyzed across different smartphone brands.
 
 The average discount was calculated for each brand to understand discount patterns in the collected listings.
 
-6. Rating Analysis
+#### 6. Rating Analysis
 
 Average customer ratings were calculated for different smartphone brands.
 
 This analysis helps understand rating patterns across the brands included in the dataset.
 
-7. Price Distribution
+#### 7. Price Distribution
 
 A histogram was created to understand how smartphone prices are distributed in the dataset.
 
 This helps identify the concentration of smartphones across different price ranges.
 
-8. Rating Distribution
+#### 8. Rating Distribution
 
 A KDE plot was created to understand the distribution of smartphone ratings.
 
 Mean and median ratings were also visualized on the distribution.
 
-9. Battery vs Price
+#### 9. Battery vs Price
+
 
 A scatter plot was created to analyze the relationship between battery capacity and smartphone price.
 
 This helps understand whether smartphones with larger battery capacities tend to have different price levels.
 
-10. Rating vs Price
+#### 10. Rating vs Price
 
 The relationship between smartphone rating and price was analyzed using a scatter plot.
 
 This helps understand how ratings are distributed across different price levels.
 
-🔗 Correlation Analysis
+### 🔗 Correlation Analysis
 
 Correlation analysis was performed using the following numerical variables:
 
@@ -226,7 +227,7 @@ RAM and Storage: 0.795
 
 These values describe the relationships observed within this particular dataset.
 
-📈 Key Insights
+#### 📈 Key Insights
 
 Based on the analysis, the project provides insights into:
 
@@ -240,7 +241,7 @@ Distribution of smartphone prices and ratings.
 Relationships between price and other numerical specifications.
 Strong relationship between RAM and Storage in the analyzed dataset.
 
-📂 Dataset
+#### 📂 Dataset
 
 The cleaned dataset was saved as:
 
@@ -248,7 +249,7 @@ Smartphone-Market-Analysis.csv
 
 The final dataset contains 188 rows and 11 columns after duplicate removal.
 
-📁 Project Files
+#### 📁 Project Files
 
 This GitHub repository contains the main files related to the project:
 
@@ -257,7 +258,7 @@ HTML File – Related to the web scraping/data collection process.
 CSV File – Scraped and processed smartphone dataset.
 README.md – Project documentation.
 
-🚧 Challenges Faced
+#### 🚧 Challenges Faced
 
 During the project, some challenges were involved in:
 
@@ -269,7 +270,7 @@ Converting text values into numeric values.
 Identifying duplicate records.
 Extracting specifications using Regular Expressions.
 
-🚀 Future Enhancements
+#### 🚀 Future Enhancements
 
 This project can be further improved by:
 
@@ -280,7 +281,7 @@ Building an interactive dashboard using Power BI.
 Automating the data collection and analysis process.
 Adding more advanced statistical or machine learning analysis.
 
-🏁 Conclusion
+#### 🏁 Conclusion
 
 The Smartphone Market Analysis Using Web Scraping project demonstrates an end-to-end data analysis workflow.
 
@@ -290,6 +291,9 @@ This project provided practical experience in Python, Web Scraping, Pandas, NumP
 
 It also helped in understanding how raw web data can be transformed into meaningful information and business insights.
 
-author 
+#### author 
+
 Mohammad.Mariyambi
 
+#### Contacts
+https://www.linkedin.com/in/mohammad-mariyambi-2910bb442/
